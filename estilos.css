@@ -1,18 +1,26 @@
 body{
-    background-color: green;
+    background-color: white;
 }
 .caja1{
-    width: 150px;
-    height: 150px;
-    background-color: rgb(221, 53, 61);
+    color: rgb(221, 53, 61);
 }
 .caja2{
-    width: 150px;
-    height: 150px;
+    
     background-color: #fce516;
 }
 .caja3{
-    width: 150px;
-    height: 150px;
+    
     background-color: hsl(123, 77%, 54%);
+}
+#foo{
+    color: orange;
+}
+a[title]{
+    color: green;
+}
+button:hover{
+    background-color: green;
+}
+input:disabled{
+    border: 2px solid orange;
 }
